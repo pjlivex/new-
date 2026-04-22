@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pong - Retro Games Hub</title>
+  <link rel="stylesheet" href="../../assets/css/style.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">Retro Games Hub</div>
+      <ul class="nav-links">
+        <li><a href="../../index.html">Home</a></li>
+        <li><a href="../../about.html">About</a></li>
+        <li><a href="../../contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="game-container">
+      <h1>Pong</h1>
+      <p>Use W/S keys for left paddle, AI controls right. First to 5 wins.</p>
+      <div class="game-controls">
+        <button id="start-btn">Start Game</button>
+        <button id="fullscreen-btn">Fullscreen</button>
+        <span id="score">0 - 0</span>
+      </div>
+      <canvas id="game-canvas" width="600" height="400"></canvas>
+      <div class="leaderboard">
+        <h3>Leaderboard</h3>
+        <ol id="leaderboard-list">
+          <!-- Leaderboard will be populated by JS -->
+        </ol>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Retro Games Hub. <a href="../../privacy.html">Privacy Policy</a> | <a href="../../terms.html">Terms of Service</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

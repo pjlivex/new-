@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Space Invaders - Retro Games Hub</title>
+  <link rel="stylesheet" href="../../assets/css/style.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">Retro Games Hub</div>
+      <ul class="nav-links">
+        <li><a href="../../index.html">Home</a></li>
+        <li><a href="../../about.html">About</a></li>
+        <li><a href="../../contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="game-container">
+      <h1>Space Invaders</h1>
+      <p>Use left/right arrows to move, space to shoot. Destroy all aliens.</p>
+      <div class="game-controls">
+        <button id="start-btn">Start Game</button>
+        <button id="fullscreen-btn">Fullscreen</button>
+        <span id="score">Score: 0</span>
+        <span id="lives">Lives: 3</span>
+      </div>
+      <canvas id="game-canvas" width="400" height="400"></canvas>
+      <div class="leaderboard">
+        <h3>Leaderboard</h3>
+        <ol id="leaderboard-list">
+          <!-- Leaderboard will be populated by JS -->
+        </ol>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Retro Games Hub. <a href="../../privacy.html">Privacy Policy</a> | <a href="../../terms.html">Terms of Service</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

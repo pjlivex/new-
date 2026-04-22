@@ -1,0 +1,6 @@
+# ads.txt file for Retro Games Hub
+# This file is for AdSense and other ad networks
+
+# Example entries (replace with actual publisher IDs)
+# google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0
+# facebook.com, 0000000000000000, RESELLER, c3e20eee3f780d68

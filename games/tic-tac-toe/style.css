@@ -1,0 +1,24 @@
+/* Tic Tac Toe Game Styles */
+
+.game-container {
+  text-align: center;
+}
+
+canvas {
+  border: 2px solid var(--neon-green);
+  background: #fff;
+  cursor: pointer;
+}
+
+.game-controls {
+  margin: 1rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+#turn {
+  font-size: 1.2rem;
+  color: var(--neon-green);
+}

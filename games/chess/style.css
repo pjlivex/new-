@@ -1,0 +1,60 @@
+/* Chess Game Styles */
+
+.game-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+#chess-canvas {
+  border: 2px solid var(--neon-green);
+  border-radius: 8px;
+  background: var(--bg-color);
+  cursor: pointer;
+  margin: 1rem 0;
+}
+
+.game-controls {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1rem 0;
+  flex-wrap: wrap;
+}
+
+button {
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  color: var(--text-color);
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background: var(--neon-green);
+  color: var(--bg-color);
+}
+
+#turn {
+  font-weight: bold;
+  color: var(--neon-green);
+}
+
+.leaderboard {
+  margin-top: 2rem;
+  text-align: left;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.leaderboard ol {
+  padding-left: 1.5rem;
+}
+
+.leaderboard li {
+  margin: 0.5rem 0;
+}

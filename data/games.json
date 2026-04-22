@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Snake",
+    "slug": "snake",
+    "category": "Arcade",
+    "description": "Classic snake game where you control a snake to eat food and grow longer without hitting walls or yourself.",
+    "thumbnail": "assets/images/snake.svg",
+    "rating": 4.5
+  },
+  {
+    "name": "Tetris",
+    "slug": "tetris",
+    "category": "Puzzle",
+    "description": "Arrange falling blocks to clear lines and achieve high scores.",
+    "thumbnail": "assets/images/tetris.svg",
+    "rating": 4.8
+  },
+  {
+    "name": "Pong",
+    "slug": "pong",
+    "category": "Arcade",
+    "description": "Classic paddle ball game. Control the paddle to bounce the ball past your opponent.",
+    "thumbnail": "assets/images/pong.svg",
+    "rating": 4.2
+  },
+  {
+    "name": "Breakout",
+    "slug": "breakout",
+    "category": "Arcade",
+    "description": "Break bricks with a ball and paddle. Destroy all bricks to win.",
+    "thumbnail": "assets/images/breakout.svg",
+    "rating": 4.3
+  },
+  {
+    "name": "Space Invaders",
+    "slug": "space-invaders",
+    "category": "Action",
+    "description": "Defend Earth from alien invaders by shooting them down.",
+    "thumbnail": "assets/images/space-invaders.svg",
+    "rating": 4.6
+  },
+  {
+    "name": "Flappy Bird",
+    "slug": "flappy-bird",
+    "category": "Action",
+    "description": "Navigate a bird through pipes by tapping to flap. Avoid obstacles.",
+    "thumbnail": "assets/images/flappy-bird.svg",
+    "rating": 4.4
+  },
+  {
+    "name": "2048",
+    "slug": "2048",
+    "category": "Puzzle",
+    "description": "Slide tiles to combine numbers and reach 2048.",
+    "thumbnail": "assets/images/2048.svg",
+    "rating": 4.7
+  },
+  {
+    "name": "Tic Tac Toe",
+    "slug": "tic-tac-toe",
+    "category": "Multiplayer",
+    "description": "Classic 3x3 grid game. Get three in a row to win.",
+    "thumbnail": "assets/images/tic-tac-toe.svg",
+    "rating": 4.0
+  },
+  {
+    "name": "Memory Game",
+    "slug": "memory-game",
+    "category": "Puzzle",
+    "description": "Flip cards to find matching pairs. Test your memory skills.",
+    "thumbnail": "assets/images/memory-game.svg",
+    "rating": 4.1
+  },
+  {
+    "name": "Frogger",
+    "slug": "frogger",
+    "category": "Action",
+    "description": "Help the frog cross roads and rivers to reach home.",
+    "thumbnail": "assets/images/frogger.svg",
+    "rating": 4.5
+  },
+  {
+    "name": "Pacman",
+    "slug": "pacman",
+    "category": "Arcade",
+    "description": "Eat dots while avoiding ghosts in the maze.",
+    "thumbnail": "assets/images/pacman.svg",
+    "rating": 4.9
+  },
+  {
+    "name": "Asteroids",
+    "slug": "asteroids",
+    "category": "Action",
+    "description": "Destroy asteroids and alien ships in space.",
+    "thumbnail": "assets/images/asteroids.svg",
+    "rating": 4.3
+  },
+  {
+    "name": "Minesweeper",
+    "slug": "minesweeper",
+    "category": "Puzzle",
+    "description": "Find all mines on the grid without detonating them.",
+    "thumbnail": "assets/images/minesweeper.svg",
+    "rating": 4.2
+  },
+  {
+    "name": "Connect Four",
+    "slug": "connect-four",
+    "category": "Multiplayer",
+    "description": "Drop pieces to connect four in a row vertically, horizontally, or diagonally.",
+    "thumbnail": "assets/images/connect-four.svg",
+    "rating": 4.4
+  },
+  {
+    "name": "Chess",
+    "slug": "chess",
+    "category": "Multiplayer",
+    "description": "Strategic board game with kings, queens, and other pieces.",
+    "thumbnail": "assets/images/chess.svg",
+    "rating": 4.8
+  }
+]

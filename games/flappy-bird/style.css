@@ -1,0 +1,23 @@
+/* Flappy Bird Game Styles */
+
+.game-container {
+  text-align: center;
+}
+
+canvas {
+  border: 2px solid var(--neon-blue);
+  background: #87ceeb;
+}
+
+.game-controls {
+  margin: 1rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+#score {
+  font-size: 1.2rem;
+  color: var(--neon-blue);
+}
